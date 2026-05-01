@@ -3,7 +3,7 @@ schema_version: "1.0"
 preset:
   id: "speckit-system-design"
   name: "System Design Phase Preset"
-  version: "1.0.1"
+  version: "1.0.2"
   description: "Introduces a formal System Design phase between the clarify and plan phases."
   author: "Ahmad Abdelkhaleq"
   repository: "https://github.com/ahmad-abdelkhaleq/speckit-system-design-preset"
@@ -13,17 +13,16 @@ requires:
   speckit_version: ">=0.1.0"
 
 provides:
-  commands:
+  templates:
     - type: "command"
       name: "speckit.system-design"
-      file: "commands/speckit-system-design.md"
+      file: "commands/speckit.system-design.md"
       description: "Enforces a formal discussion-first C4 architectural modeling workflow."
     - type: "command"
       name: "speckit.plan"
-      file: "commands/speckit-plan.md"
+      file: "commands/speckit.plan.md"
       description: "Overrides default planning to strictly enforce alignment with system-design.md."
       replaces: "speckit.plan"
-  templates:
     - type: "template"
       name: "system-design"
       file: "templates/system-design.md"
