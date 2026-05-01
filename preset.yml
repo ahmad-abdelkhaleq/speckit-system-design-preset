@@ -3,7 +3,7 @@ schema_version: "1.0"
 preset:
   id: "speckit-system-design"
   name: "System Design Phase Preset"
-  version: "1.0.2"
+  version: "1.0.3"
   description: "Introduces a formal System Design phase between the clarify and plan phases."
   author: "Ahmad Abdelkhaleq"
   repository: "https://github.com/ahmad-abdelkhaleq/speckit-system-design-preset"

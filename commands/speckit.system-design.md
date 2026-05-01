@@ -1,9 +1,9 @@
 ---
-name: speckit-system-design
+name: speckit.system-design
 description: Introduces a formal System Design phase between the clarify and plan phases.
 ---
 
-# speckit-system-design
+# speckit.system-design
 
 ## Objective
 Execute a formal System Design phase based on `spec.md` to establish architectural principles, structural diagrams, and technical boundaries before implementation planning.

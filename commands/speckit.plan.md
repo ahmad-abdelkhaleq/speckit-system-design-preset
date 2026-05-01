@@ -1,12 +1,17 @@
 ---
-name: speckit-plan
+name: speckit.plan
 description: Execute the implementation planning workflow using the design artifacts.
 ---
 
-# speckit-plan
+# speckit.plan
 
 ## Objective
 Generate a comprehensive implementation plan (`plan.md`) based on the feature specification and the established system design.
+
+## Pre-Execution Checks
+**Check for System Design Phase**:
+- Look for `system-design.md` in the current working directory.
+- If it does NOT exist, you **MUST IMMEDIATELY ABORT** and output an error instructing the user to run `/speckit.system-design` first. Do NOT proceed to the outline or planning phase.
 
 ## Prerequisites
 - `spec.md` must be completed and validated.
