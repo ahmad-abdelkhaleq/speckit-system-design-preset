@@ -18,14 +18,13 @@ This command enforces a **discussion-first workflow**, stopping the agent from w
 
 ## 🚀 Installation
 
-Copy the `commands` and `templates` folders directly into your active Spec-Kit project repository:
+You can install this preset directly from GitHub using the Spec-Kit CLI:
 
 ```bash
-cp -r preset-package/commands ./ 
-cp -r preset-package/templates ./
+specify preset install ahmad-abdelkhaleq/speckit-system-design-preset
 ```
 
-*(This will merge the preset commands with your existing Spec-Kit `.specify/` configuration or root project configuration, depending on your setup).*
+*(This will automatically download and merge the preset commands with your existing Spec-Kit configuration).*
 
 ## 📖 Usage
 
